@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XXUILazyImageView"
   s.version      = "0.0.1"
-  s.summary      = "A short description of XXUILazyImageView."
+  s.summary      = "Yet Another Lazy loading UIImageView for remote image assets."
 
   s.description  = <<-DESC
                    Yet Another Lazy loading UIImageView for remote image assets.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   # s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/seanxiaoxiao/XXUILazyImageView", :tag => "0.0.1" }
+  s.source       = { :git => "git@github.com:seanxiaoxiao/XXUILazyImageView.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
