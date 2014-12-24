@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XXUILazyImageView : UIView<NSURLConnectionDataDelegate>
+@interface XXUILazyImageView : UIImageView<NSURLConnectionDataDelegate>
 
 - (instancetype)initWithFrame:(CGRect)rect imageURL:(NSURL *)imageURL;
 

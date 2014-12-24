@@ -9,7 +9,6 @@
 #import "XXUILazyImageView.h"
 
 @implementation XXUILazyImageView {
-    UIImageView *_imageView;
     UIActivityIndicatorView *_activityIndicator;
     NSMutableData *_imageData;
     NSURL *_imageURL;
@@ -70,10 +69,7 @@
 
 - (void)displayImage
 {
-    UIImage *image = [UIImage imageWithData:_imageData];
-    _imageView = [[UIImageView alloc] initWithImage:image];
-    _imageView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
-    [self addSubview:_imageView];
+    [self setImage:[UIImage imageWithData:_imageData]];
 }
 
 - (void)displayError
