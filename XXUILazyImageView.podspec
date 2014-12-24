@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XXUILazyImageView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Yet Another Lazy loading UIImageView for remote image assets."
 
   s.description  = <<-DESC
